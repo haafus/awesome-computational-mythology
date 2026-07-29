@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this list, please cite it."
+title: "Awesome Computational Mythology"
+abstract: >-
+  A curated list of resources for the computational, comparative, and
+  quantitative study of myth, folklore, and traditional narrative.
+type: dataset
+license: CC0-1.0
+url: "https://github.com/haafus/awesome-computational-mythology"
+repository-code: "https://github.com/haafus/awesome-computational-mythology"
+keywords:
+  - computational folkloristics
+  - comparative mythology
+  - digital humanities
+  - folklore
+  - motif index
+authors:
+  - given-names: "Pavel"
+    family-names: "Lebedev"
+    # orcid: "https://orcid.org/0009-0004-7805-1673"
