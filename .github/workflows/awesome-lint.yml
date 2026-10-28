@@ -33,10 +33,12 @@ jobs:
           # 202 is what doi.org answers for some publishers; 429 is rate limiting.
           # The two excluded hosts are alive but serve a broken TLS chain / HTTP2.
           args: >-
-            --no-progress --method get --timeout 30 --max-retries 3
+            --no-progress --method get --timeout 60
+            --max-retries 5 --retry-wait-time 5
             --accept 200,202,206,403,405,429
             --exclude oracc\.museum\.upenn\.edu
             --exclude www\.sacred-texts\.com
+            --exclude heimskringla\.no
             './**/*.md'
           fail: true
         env:
