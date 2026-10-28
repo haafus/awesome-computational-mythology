@@ -25,7 +25,6 @@ apparatus like TMI/ATU). This is a **neutral community list**.
 - [Venues & journals](#venues--journals)
 - [Projects](#projects)
 - [See also](#see-also)
-- [Contributing](#contributing)
 
 ## Motif & tale-type indexes
 
@@ -54,7 +53,6 @@ apparatus like TMI/ATU). This is a **neutral community list**.
   of 1,518 texts over 182 tale types (CC-BY-SA); the [data
   paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.78) is in *Journal of Open Humanities Data*. An SVM over TF-IDF on its ten
   best-populated classes reaches F1 0.8–1.0 (Eklund et al. 2023, below).
-- **[MOMFER](https://momfer.meertens.knaw.nl/)** — the Meertens Motif Finder over the Dutch Folktale Database.
 - **[Dutch Folktale Database (Verhalenbank)](https://www.verhalenbank.nl)** — the Meertens Institute folktale collection.
 - **[ISEBEL](https://isebel.eu/)** — cross-archive search over multiple European folk-narrative databases.
 - **[FairytaleQA](https://github.com/neuhai/FairytaleQA_Dataset)** — question-answering dataset over fairy tales.
@@ -168,7 +166,7 @@ apparatus like TMI/ATU). This is a **neutral community list**.
 - Tehrani — [*The Phylogeny of Little Red Riding Hood*](https://doi.org/10.1371/journal.pone.0078871) (PLoS ONE, 2013).
 - d'Huy — *Cosmic Hunt* / phylogenetic mythology (2013–).
 - Hatzel & Biemann — [*Story Embeddings*](https://aclanthology.org/2024.emnlp-main.339/) (EMNLP 2024).
-- Yarlott et al. — [*GOLEM*](https://aclanthology.org/2024.lrec-main.689/) (LREC-COLING 2024).
+- Yarlott et al. — *GOLEM* (LREC-COLING 2024) — the corpus; listed under corpora above.
 - Lauer — [*A Very Brief History of Computational Folkloristics*](https://doi.org/10.1515/fabula-2023-0001) (Fabula, 2023).
 - Karsdorp, van der Meulen, Meder & van den Bosch — [*MOMFER: A Search Engine of Thompson's
   Motif-Index*](https://doi.org/10.1080/0015587X.2015.1006954) (Folklore, 2015) — semantic rather than string search over the TMI.
@@ -180,8 +178,8 @@ apparatus like TMI/ATU). This is a **neutral community list**.
 - Arčon, Robnik-Šikonja & Tratnik — [*Large language models for folktale type automation based on
   motifs: Cinderella case study*](https://arxiv.org/abs/2510.18561) (preprint, 2025) — zero-shot motif-presence checks, and an
   argument that the motif typology itself is too rigid.
-- Alyami & Finlayson — [*Automated Motif Indexing on the Arabian Nights*](https://arxiv.org/abs/2603.19283) (preprint, 2026) — a
-  fine-tuned Llama-3 at 0.85 F1 against a known index entry.
+- Alyami & Finlayson — *Automated Motif Indexing on the Arabian Nights* (preprint, 2026) — a
+  fine-tuned Llama-3 at 0.85 F1 against a known index entry; the corpus is listed above.
 - d'Huy — [*Polyphemus: a Palaeolithic tale?*](https://shs.hal.science/halshs-00932197/document) (2013) and [*The Cosmic Hunt*](https://shs.hal.science/halshs-02280068/document) (Nouvelle
   Mythologie Comparée 4, 2018) — the phylogenetic-mythology programme.
 - [*Worldwide patterns in mythology echo the human expansion out of Africa*](https://www.biorxiv.org/content/10.1101/2025.01.24.634692v1.full) (bioRxiv, 2025) —
@@ -232,10 +230,3 @@ Related curated lists to cross-link with: *awesome-nlp*, *awesome-digital-humani
 Contributions welcome! Read [contributing.md](contributing.md) and open a pull request. Entry
 format: `**Name** — one-line description — link` (papers: `Author(s) — Title (venue, year)`).
 By contributing you agree to the [code of conduct](code-of-conduct.md).
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](LICENSE)
-
-To the extent possible under law, the maintainers have waived all copyright and related rights
-to this work (CC0 1.0). Cite via [`CITATION.cff`](CITATION.cff).
