@@ -21,8 +21,9 @@ non-computational reference works (unless a standard apparatus such as TMI/ATU).
 1. Fork and edit `README.md`.
 2. Add your entry to the most fitting section, keeping alphabetical/logical order.
 3. Use the entry format:
-   - Resources: `- **Name** — one-line, neutral description — [link](https://…).`
-   - Papers: `- Author(s) — *Title* (venue, year).`
+   - Resources: `- [Name](https://…) - One-line, neutral description.`
+   - Papers: `- [Title](https://…) - Author(s) (venue, year).`
+   - Every entry starts with its link; the description starts with a capital letter and ends with a period; each URL appears only once in the file.
 4. Keep it to **one line**, factual and non-promotional.
 5. The resource must be **real, reachable, and not a duplicate**.
 6. Open a pull request using the template; explain why it fits.

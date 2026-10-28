@@ -8,7 +8,7 @@
 
 - [ ] The resource is in scope (see README "Scope" and `contributing.md`).
 - [ ] It is real, reachable, and not already listed.
-- [ ] Entry follows the format: `**Name** — one-line neutral description — link`.
+- [ ] Entry follows the format: `- [Name](https://…) - One-line neutral description.`.
 - [ ] The description is one line and non-promotional.
 - [ ] I ran `npx awesome-lint` locally and it passes.
 
