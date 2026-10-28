@@ -39,6 +39,7 @@ jobs:
             --exclude oracc\.museum\.upenn\.edu
             --exclude www\.sacred-texts\.com
             --exclude heimskringla\.no
+            --exclude openhumanitiesdata\.metajnl\.com
             './**/*.md'
           fail: true
         env:
