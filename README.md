@@ -151,12 +151,45 @@
 - [Large language models for folktale type automation based on motifs: Cinderella case study](https://arxiv.org/abs/2510.18561) - Arčon, Robnik-Šikonja & Tratnik (preprint, 2025); zero-shot motif-presence checks, and an argument that the motif typology itself is too rigid.
 - [Automated Motif Indexing on the Arabian Nights](https://arxiv.org/pdf/2603.19283) - Alyami & Finlayson (preprint, 2026); a fine-tuned Llama-3 at 0.85 F1 against a known index entry; the corpus is listed above.
 - [Worldwide patterns in mythology echo the human expansion out of Africa](https://www.biorxiv.org/content/10.1101/2025.01.24.634692v1.full) - Motif distances against geographic and genetic distance on the Berezkin catalogue (bioRxiv, 2025).
-
 ## Scholars & labs
 
-Timothy Tangherlini · Folgert Karsdorp · Theo Meder · Antal van den Bosch · Dong Nguyen · Mark Finlayson · Julien d'Huy · Jean-Loïc Le Quellec · Marc Thuillard · Yuri Berezkin · Jamshid Tehrani · Sara Graça da Silva · Mike Kestemont · Ralph Kenna · Pádraig Mac Carron · Thierry Declerck · Gerhard Lauer · Peter Broadwell · James Abello · Karl Grossner · Hans-Jörg Uther · Katja Mellmann · Elena Duvakin · Sándor Darányi · Josh Hagedorn · Johan Eklund · Victor Yarlott · William Lamb · Beatrice Alex · Marko Robnik-Šikonja.
+Researchers and groups working on computational folkloristics, narrative analysis, cultural evolution, and the digital study of myth. The list is selective rather than exhaustive; entries are grouped by their main research connection to this field.
 
-Groups: the **[Meertens Institute](https://meertens.knaw.nl)** (Dutch Folktale Database, MOMFER) · the **Cognac Lab** at FIU (motif detection, GOLEM) · Durham's cultural-evolution group · the **[Max Planck Institute for Evolutionary Anthropology](https://www.eva.mpg.de/linguistic-and-cultural-evolution/)** · Edinburgh (Gaelic folktale NLP).
+### Computational folkloristics, narrative, and text analysis
+
+- [Timothy R. Tangherlini](https://cstms.berkeley.edu/people/timothy-tangherlini/) - Computational approaches to folklore, literature, and culture; studies the circulation of stories, legends, and rumors through social networks.
+- [Folgert Karsdorp](https://www.karsdorp.io/) - Computational cultural evolution; develops quantitative methods to study cultural change, diversity, and transmission while accounting for biases in historical collections.
+- [Theo Meder](https://meertens.knaw.nl/en/medewerker/meder-prof-dr-th-theo-2/) - Dutch folktales and storytelling culture; coordinates the Dutch Folktale Database and works on the documentation and transmission of folk narratives.
+- [Mark A. Finlayson](https://users.cs.fiu.edu/~markaf/) - Computational models of narrative, narrative structure extraction, story understanding, and richly annotated story corpora.
+- [Franziska Pannach](https://fpannach.github.io/) - NLP and Semantic Web methods for mythological and folkloric narratives; involved in the GOLEM and STRATA projects.
+- [Mike Kestemont](https://www.uantwerpen.be/en/staff/mike-kestemont/research/) - Computational humanities, machine learning, stylometry, and quantitative analysis of historical and premodern texts.
+- [Gerhard Lauer](https://researchprofiles.uni-mainz.de/12914-gerhard-lauer) - Computational folktale studies and quantitative approaches to the history and transmission of narrative traditions.
+- [Antal van den Bosch](https://www.uu.nl/staff/APJvandenBosch) - Computational linguistics and language technology, including methods relevant to the analysis of historical and cultural text collections.
+
+### Comparative mythology and cultural evolution
+
+- [Jamshid J. Tehrani](https://duracuk-www01-production.terminalfour.net/staff/jamie-tehrani/) - Cultural evolution and phylogenetic approaches to the transmission and diversification of folktales and other popular narratives.
+- [Sara Graça da Silva](https://novaresearch.unl.pt/en/persons/sara-gra%C3%A7a-da-silva/) - Comparative and evolutionary approaches to folktales, including the distribution and history of narrative motifs.
+- [Julien d’Huy](https://college-de-france.academia.edu/JuliendHuy) - Computational and phylogenetic approaches to comparative mythology and the reconstruction of myth histories.
+- [Jean-Loïc Le Quellec](https://www.cnrseditions.fr/auteur/jean-loic-le-quellec/) - Comparative mythology, rock art, and the geographic and historical distribution of mythological motifs.
+- [Yuri Berezkin](https://eusp.org/people/berezkin) - Comparative mythology and the geographic distribution of folklore and mythological motifs; compiler of a large-scale analytical catalogue of world mythology.
+- Ralph Kenna and [Pádraig Mac Carron](https://pure.ul.ie/en/persons/padraig-maccarron/) - Network-science approaches to mythology and the quantitative analysis of mythological narratives.
+- [Marc Thuillard](https://orcid.org/0009-0006-6007-1427) - Quantitative and geographic analysis of world-myth motif distributions.
+
+### Research groups and labs in folkloristics and cultural analysis
+
+- [CognAC Lab — Florida International University](https://cognac.cs.fiu.edu/) - Computational modeling of culture, narrative, language, and cognition; research combines AI, NLP, cognitive science, and digital humanities.
+- [Meertens Institute](https://meertens.knaw.nl/en/) - Dutch research institute for language and culture, including ethnology, oral culture, and the documentation and study of folk narratives.
+- [Cultural Analytics Lab, UC Berkeley](https://culturalanalytics.berkeley.edu/) - Develops computational methods for studying cultural production, including literature and folklore, using NLP, machine learning, and network analysis.
+- [DFG Myth Research Group STRATA](https://fmw.iza.uni-goettingen.de/de/556429.html) - Research group (2019–2023) investigating layers and historical development of ancient mythological narratives through textual and comparative analysis.
+
+### Cultural evolution and adjacent research centres
+
+- [GOLEM — Graphs and Ontologies for Literary Evolution Models](https://golemlab.eu/) - Research project developing graph- and ontology-based methods to study the evolution of literary works and cultural traits, using fanfiction corpora; its connection to folklore is comparative and methodological.
+- [Max Planck Institute for Evolutionary Anthropology — Linguistic and Cultural Evolution](https://www.eva.mpg.de/linguistic-and-cultural-evolution/) - Research on the evolution, diversity, and transmission of language and culture, providing broader evolutionary frameworks relevant to narrative transmission.
+- [Center for Digital Narrative, University of Bergen](https://www4.uib.no/en/research/research-centres/center-for-digital-narrative) - Humanities-led research on digital narrative and computational storytelling, including work on algorithmic folklore and changing cultural forms.
+- [Computational Narrative Systems, University of Bergen](https://www4.uib.no/en/research/research-groups/computational-narrative-systems) - Research group within the Center for Digital Narrative combining narrative theory, computational creativity, and computer science to model narrative systems.
+- [Narrative Intelligence Lab, Columbia University](https://nil.columbia.edu/) - Studies how stories shape shared beliefs, combining literary theory, sociology, linguistics, and computation.
 
 ## Venues & journals
 
