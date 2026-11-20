@@ -12,7 +12,6 @@
 - [Cross-cultural & areal databases](#cross-cultural--areal-databases)
 - [Contextual data](#contextual-data)
 - [Digital text libraries](#digital-text-libraries)
-- [Encyclopedias & reference works](#encyclopedias--reference-works)
 - [Ontologies & linked open data](#ontologies--linked-open-data)
 - [Methods & techniques](#methods--techniques)
 - [Tools & software](#tools--software)
@@ -38,10 +37,9 @@
 - [Annotated Folktales / "Trilogy"](https://github.com/j-hagedorn/trilogy) - Open ATU-annotated corpus (Hagedorn & Darányi, 2022) of 1,518 texts over 182 tale types (CC-BY-SA); the [data paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.78) is in *Journal of Open Humanities Data*. An SVM over TF-IDF on its ten best-populated classes reaches F1 0.8–1.0 (Eklund et al. 2023, below).
 - [Dutch Folktale Database (Verhalenbank)](https://www.verhalenbank.nl) - The Meertens Institute folktale collection; also searchable through ISEBEL.
 - [FairytaleQA](https://github.com/neuhai/FairytaleQA_Dataset) - Question-answering dataset over fairy tales.
-- [Folklore Database](https://folkloredatabase.com/) - Aggregated global collection of 286,000+ narrative texts from hundreds of sources, with English translations and metadata including motifs, cultural origins, geography, and bibliographic references. It incorporates existing indexes and corpora; mytheme annotations are being rebuilt with an LLM, and mytheme search is currently unavailable. Check source-level provenance and reuse rights before treating it as a downloadable research corpus.
+- [Folklore Database](https://folkloredatabase.com/) - Searchable global discovery database of 286,878 narratives from hundreds of sources, with English translations and metadata such as motifs, cultural origins, locations, and bibliographic references. It incorporates the ATU, Thompson, and Berezkin–Duvakin catalogues alongside additional texts and editorial data. Mytheme data is being rebuilt with an LLM, and mytheme search is currently unavailable. Rights vary by item and source; the site does not grant a blanket licence for the full collection or bulk reuse. Check item-level rights and contact the curator about research data access.
 - [FILTER Finnic Runosong Database](https://blogs.helsinki.fi/filter-project/tools/) - Integrated database of Estonian, Finnish, Karelian, and Ingrian runosong materials (approx. 250,000 texts across related corpora), with metadata and computational similarity tools; includes ERAB, SKVR, and unpublished Finnish runosongs.
 - [Decoding Hidden Heritages](https://www.hiddenheritages.ai/) - Searchable corpus of 5,500+ Scottish and Irish folktales from archival manuscripts and printed sources, including AI-assisted transcriptions and AT tale-type metadata; project outputs derive from the School of Scottish Studies Archives and the Irish National Folklore Collection.
-- [Multilingual Folk Tale Database (MFTD)](http://www.mftd.org) - Folk tales and their translations in many languages; the site is temporarily offline.
 - [ProppLearner](https://academic.oup.com/dsh/article/32/2/284/2957394) - Proppian-function-annotated Russian folktales (Finlayson); see also Finlayson's [2012 dissertation, *Learning Narrative Structure from Annotated Folktales*](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf), which develops the Analogical Story Merging (ASM) approach.
 - [Arabian Nights motif corpus](https://arxiv.org/abs/2603.19283) - 2,670 motif expressions over 200 motifs in 58,450 sentences, indexed against El-Shamy (Alyami & Finlayson, 2026; preprint); the first motif-indexing corpus for a single work.
 - [MIME](https://aclanthology.org/2024.nlpcss-1.4/) - Reports on a motif's *implicit* meaning drawn from indexes, Wikipedia, informants and social media (Acharya et al., NLP+CSS 2024); concludes culture-bearer input is not optional.
@@ -53,7 +51,6 @@ Digital repositories and search systems for folklore materials, including archiv
 - [ISEBEL — Intelligent Search Engine for Belief Legends](https://search.isebel.eu/) - Cross-archive search over Dutch, Flemish, Danish, North-East German, and Icelandic legend databases; links records to their source collections.
 - [WossiDia — Digital Wossidlo Archive](https://apps.wossidia.de/webapp/run) - Digitized North-East German folklore archive based on the Wossidlo collection.
 - [Folke](https://sok.folke.isof.se/) - Swedish digital archive of historical folklore records from the Institute for Language and Folklore (Isof), including manuscripts, questionnaires, and recordings; transcribed texts are also available as a downloadable corpus under CC BY 4.0.
-- [African Oral Narratives](https://africacommons.net/collections/159439/african-oral-narratives/) - Open digital library of oral and life histories, folklore, and songs from Ethiopia, Ghana, and South Africa, including audio, video, transcripts, and translations.
 - [Sagnagrunnur](https://sagnagrunnur.arnastofnun.is/english/) - Geographically mapped database of published Icelandic legends, with linked extensions for Shetland and Orkney and connections to archival sound recordings.
 - [Danish Folklore Nexus](https://scando.ist.berkeley.edu/folklorenexus/) - Searchable collection of Danish legends developed by the Scandinavian Section at UC Berkeley.
 - [Danish Folklore Archive, Royal Danish Library](https://www.kb.dk/en/find-materials/collections/folklore-archive) - Manuscripts, audio, images, video, and books documenting Danish folklore and everyday life.
@@ -111,16 +108,6 @@ Structured information needed to interpret distributions, model contact, and con
 - [Project Gutenberg](https://www.gutenberg.org) - Public-domain books.
 - [Internet Archive](https://archive.org) - Scanned books and texts.
 - [HathiTrust](https://www.hathitrust.org) - Digitized research-library collections.
-
-## Encyclopedias & reference works
-
-- [The Mythology of All Races](https://en.wikipedia.org/wiki/The_Mythology_of_All_Races) - Gray/Moore, eds., 13 vols.
-- [Encyclopedia of Religion](https://archive.org/search?query=title%3A%28encyclopedia+of+religion%29+AND+creator%3A%28eliade%29) - Eliade, ed. (1987); 2nd ed. Jones (2005).
-- [Мифы народов мира](https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D1%84%D1%8B_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2_%D0%BC%D0%B8%D1%80%D0%B0) - The two-volume Soviet mythological encyclopedia (Tokarev, ed.).
-- [Dictionary of Mythology](https://archive.org/details/greekegyptianmyt00bonn) - Bonnefoy, *Mythologies* (English ed. under Doniger); the link is one of its paperback volumes.
-- [New Larousse Encyclopedia of Mythology](https://archive.org/details/newlarousseencyc00guir) - Guirand, ed.
-- [Wörterbuch der Mythologie](https://de.wikipedia.org/wiki/W%C3%B6rterbuch_der_Mythologie) - Haussig, ed.
-- [Enzyklopädie des Märchens](https://adw-goe.de/cs/enzmaer/) - The reference encyclopedia of the folktale.
 
 ## Ontologies & linked open data
 
