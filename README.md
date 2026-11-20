@@ -40,7 +40,6 @@
 - [FairytaleQA](https://github.com/neuhai/FairytaleQA_Dataset) - Question-answering dataset over fairy tales.
 - [Multilingual Folk Tale Database (MFTD)](http://www.mftd.org) - Folk tales and their translations in many languages; the site is temporarily offline.
 - [ProppLearner](https://academic.oup.com/dsh/article/32/2/284/2957394) - Proppian-function-annotated Russian folktales (Finlayson); see also Finlayson's [2012 dissertation, *Learning Narrative Structure from Annotated Folktales*](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf), which develops the Analogical Story Merging (ASM) approach.
-- [Kestemont et al. "Forgotten Books"](https://doi.org/10.1126/science.abl7655) - Survival estimation of medieval narrative (Science, 2022).
 - [Arabian Nights motif corpus](https://arxiv.org/abs/2603.19283) - 2,670 motif expressions over 200 motifs in 58,450 sentences, indexed against El-Shamy (Alyami & Finlayson, 2026; preprint); the first motif-indexing corpus for a single work.
 - [MIME](https://aclanthology.org/2024.nlpcss-1.4/) - Reports on a motif's *implicit* meaning drawn from indexes, Wikipedia, informants and social media (Acharya et al., NLP+CSS 2024); concludes culture-bearer input is not optional.
 
