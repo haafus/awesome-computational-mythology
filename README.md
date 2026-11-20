@@ -10,8 +10,8 @@
 - [Corpora & annotated datasets](#corpora--annotated-datasets)
 - [Folklore databases & archives](#folklore-databases--archives)
 - [Cross-cultural & areal databases](#cross-cultural--areal-databases)
-- [Digital text libraries](#digital-text-libraries)
 - [Contextual data](#contextual-data)
+- [Digital text libraries](#digital-text-libraries)
 - [Encyclopedias & reference works](#encyclopedias--reference-works)
 - [Ontologies & linked open data](#ontologies--linked-open-data)
 - [Methods & techniques](#methods--techniques)
@@ -60,7 +60,6 @@ Digital repositories and search systems for folklore materials, including archiv
 - [Suomen Kansan Vanhat Runot (SKVR)](https://skvr.fi/) - Digital edition of Finnish, Karelian, and Ingrian oral poetry, with published and unpublished collection materials.
 - [Tobar an Dualchais / Kist o Riches](https://www.tobarandualchais.co.uk/) - Sound recordings of Scottish traditions, including legends and songs.
 - [Dúchas — National Folklore Collection](https://www.duchas.ie/en) - Digitized Irish folklore manuscripts, photographs, and audio, including the Schools’ Collection; public transcriptions and a folktale index.
-- [Belgian Folktale Database](https://www.volksverhalenbank.be/) - Folktale collection associated with the University of Leuven.
 - [Croatian Institute of Ethnology and Folklore Research — Archive Collections](https://www.ief.hr/en/archive/collections/) - Folklore and ethnographic documents, manuscript collections, and sound recordings on Croatian traditional culture.
 - [Finnish Literature Society Archives](https://www.finlit.fi/en/archives/archive-materials-on-traditional-and-contemporary-culture/) - Folklore and oral-history collections from Finland, Karelia, and Ingria, including manuscripts, photographs, recordings, and videos.
 - [Ashliman's Folktexts](https://sites.pitt.edu/~dash/folktexts.html) - D. L. Ashliman's ATU-organized collection of folklore texts.
