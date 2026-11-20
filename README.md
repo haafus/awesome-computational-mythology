@@ -63,12 +63,16 @@ Digital repositories and search systems for folklore materials, including archiv
 - [Belgian Folktale Database](https://www.volksverhalenbank.be/) - Folktale collection associated with the University of Leuven.
 - [Croatian Institute of Ethnology and Folklore Research — Documentation](https://www.ief.hr/) - Ethnological and folklore documentation collections in Zagreb.
 - [Finnish Literature Society Archives](https://finlit.finna.fi/) - Catalogued folklore, oral-history, manuscript, photographic, and sound collections.
+- [Ashliman's Folktexts](https://sites.pitt.edu/~dash/folktexts.html) - D. L. Ashliman's ATU-organized collection of folklore texts.
 
 ## Cross-cultural & areal databases
 
-- [MANTO](https://www.manto-myth.org) - Greek myth entities/relations database.
-- [Theoi Greek Mythology](https://www.theoi.com) - Greek mythology reference with primary-source quotations.
-- [historical-basemaps](https://github.com/aourednik/historical-basemaps) - Dated world political boundaries as GeoJSON (CC-BY-SA); the usual source for testing historical contact corridors.
+Structured comparative databases and reference systems that bring together cultural, religious, mythological, or historical information across societies.
+
+- [Seshat: Global History Databank](https://seshatdatabank.info) - Structured data on past societies, institutions, and social complexity.
+- [Database of Religious History (DRH)](https://religiondatabase.org) - Expert-coded data on religious groups, practices, and places.
+- [eHRAF World Cultures](https://ehrafworldcultures.yale.edu/) - Cross-cultural ethnographic materials with subject indexing (subscription).
+- [MANTO](https://www.manto-myth.org) - Linked data on Greek mythological entities and relations.
 
 ## Contextual data
 
@@ -110,6 +114,8 @@ Structured information needed to interpret distributions, model contact, and con
 - [HathiTrust](https://www.hathitrust.org) - Digitized research-library collections.
 
 ## Encyclopedias & reference works
+
+- [Theoi Greek Mythology](https://www.theoi.com) - Greek mythology reference with primary-source quotations.
 
 - [The Mythology of All Races](https://en.wikipedia.org/wiki/The_Mythology_of_All_Races) - Gray/Moore, eds., 13 vols.
 - [Encyclopedia of Religion](https://archive.org/search?query=title%3A%28encyclopedia+of+religion%29+AND+creator%3A%28eliade%29) - Eliade, ed. (1987); 2nd ed. Jones (2005).
@@ -163,38 +169,62 @@ Methods are grouped along the research workflow, from preparing primary sources 
 
 ## Tools & software
 
+### Text processing, search & semantic analysis
+
 - [MOMFER](https://momfer.meertens.knaw.nl/) - Motif finder over the Dutch Folktale Database.
-- [Sentence-Transformers](https://www.sbert.net) - Embedding infrastructure.
+- [Sentence-Transformers](https://www.sbert.net) - Embedding infrastructure for semantic search and similarity.
 - [BERTopic](https://maartengr.github.io/BERTopic/) - Topic modeling.
+- [MALLET](http://mallet.cs.umass.edu/) - Topic modeling toolkit; widely used for LDA.
+- [`uhhlt/story-emb`](https://huggingface.co/uhhlt/story-emb) - Story-similarity embedding model (Hatzel & Biemann).
+
+### Phylogenetics & comparative analysis
+
 - [SplitsTree](https://software-ab.cs.uni-tuebingen.de/download/splitstree6/) - Phylogenetic networks.
 - [BEAST2](https://www.beast2.org) - Bayesian phylogenetics.
 - [MrBayes](https://nbisweden.github.io/MrBayes/) - Bayesian phylogenetics.
-- [Gephi](https://gephi.org) - Network analysis.
+
+### Network analysis
+
+- [Gephi](https://gephi.org) - Network analysis and visualization.
 - [FANMOD](https://doi.org/10.1093/bioinformatics/btl038) - Network-motif detection (Wernicke & Rasche, Bioinformatics 2006).
-- [`uhhlt/story-emb`](https://huggingface.co/uhhlt/story-emb) - Story-similarity embedding model (Hatzel & Biemann).
-- [MALLET](http://mallet.cs.umass.edu/) - The LDA implementation most of the field's topic-model work was built on.
 
 ## Landmark papers
 
-- [Universal Properties of Mythological Networks](https://doi.org/10.1209/0295-5075/99/28002) - Mac Carron & Kenna (EPL, 2012).
-- [Learning Narrative Structure from Annotated Folktales](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf) - Finlayson (PhD dissertation, MIT, 2012); introduces Analogical Story Merging (ASM) to induce abstract narrative structure from semantically annotated event sequences.
-- [An NLP-based Cross-Document Approach to Narrative Structure Discovery](https://doi.org/10.1093/llc/fqu055) - Reiter, Frank & Hellwig (*Literary and Linguistic Computing*, 2014, 29(4), 583–605); aligns event and participant representations across documents to discover recurring narrative structures.
-- [Learning a Better Motif Index: Toward Automated Motif Extraction](https://doi.org/10.4230/OASIcs.CMN.2016.7) - Yarlott & Finlayson (CMN 2016); proposes a supervised pipeline for extracting known and novel folklore motifs from narrative texts.
-- [A Large-Scale Study of World Myths](https://doi.org/10.3176/tr.2018.4.05) - Thuillard, Le Quellec, d’Huy & Berezkin (*Trames*, 2018, 22(4), 407–424); applies network and clustering methods to the geographic distribution of motifs across the Berezkin catalogue.
-- [Mining Motifs in Fairy Tales](https://aclanthology.org/2026.oracle-main.16/) - Shahsavari, Mayer & Suchanek (ORACLE/ACL, 2026); uses an LLM to generate motif descriptions per tale, then embeddings and clustering to normalize variants and build motif-based comparisons.
+### Computational folkloristics & narrative analysis
+
 - [Computational Folkloristics](https://doi.org/10.1145/2209249.2209267) - Abello, Broadwell & Tangherlini (CACM, 2012).
+- [A Very Brief History of Computational Folkloristics](https://doi.org/10.1515/fabula-2023-0001) - Lauer (Fabula, 2023).
+- [Learning Narrative Structure from Annotated Folktales](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf) - Finlayson (PhD dissertation, MIT, 2012); introduces Analogical Story Merging (ASM) to induce abstract narrative structure from semantically annotated event sequences.
+- [An NLP-based Cross-Document Approach to Narrative Structure Discovery](https://doi.org/10.1093/llc/fqu055) - Reiter, Frank & Hellwig (*Literary and Linguistic Computing*, 2014, 29(4), 583–605); aligns event and participant representations across documents.
+- [Story Embeddings](https://aclanthology.org/2024.emnlp-main.339/) - Hatzel & Biemann (EMNLP 2024).
+
+### Motif detection, indexing & classification
+
+- [Learning a Better Motif Index: Toward Automated Motif Extraction](https://doi.org/10.4230/OASIcs.CMN.2016.7) - Yarlott & Finlayson (CMN 2016); supervised extraction of known and novel folklore motifs.
+- [Teaching Tale Types to a Computer](https://doi.org/10.1515/fabula-2023-0005) - Eklund, Hagedorn & Darányi (Fabula, 2023); SVM over TF-IDF on the ten best-populated ATU classes.
+- [Testing and Adapting the Representational Abilities of Large Language Models on Folktales in Low-Resource Languages](https://aclanthology.org/2024.nlp4dh-1.31/) - Meaney, Alex & Lamb (NLP4DH, 2024); compares LLMs and classical baselines on low-resource folktales.
+- [Large language models for folktale type automation based on motifs: Cinderella case study](https://arxiv.org/abs/2510.18561) - Arčon, Robnik-Šikonja & Tratnik (preprint, 2025); zero-shot motif-presence checks and critique of rigid motif typologies.
+- [Automated Motif Indexing on the Arabian Nights](https://arxiv.org/pdf/2603.19283) - Alyami & Finlayson (preprint, 2026); fine-tuned Llama-3 evaluated against known index entries.
+- [Mining Motifs in Fairy Tales](https://aclanthology.org/2026.oracle-main.16/) - Shahsavari, Mayer & Suchanek (ORACLE/ACL, 2026); LLM-generated motif descriptions followed by embeddings and clustering.
+
+### Comparative mythology, cultural evolution & phylogenetics
+
 - [Comparative phylogenetic analyses uncover the ancient roots of Indo-European folktales](https://doi.org/10.1098/rsos.150645) - Sara Graça da Silva & Jamshid Tehrani (R. Soc. Open Sci., 2016).
 - [The Phylogeny of Little Red Riding Hood](https://doi.org/10.1371/journal.pone.0078871) - Tehrani (PLoS ONE, 2013).
-- [Polyphemus: a Palaeolithic tale?](https://shs.hal.science/halshs-00932197/document) - d'Huy (2013); with [*The Cosmic Hunt*](https://shs.hal.science/halshs-02280068/document) (Nouvelle Mythologie Comparée 4, 2018), the core of his phylogenetic-mythology programme (2013–).
-- [Story Embeddings](https://aclanthology.org/2024.emnlp-main.339/) - Hatzel & Biemann (EMNLP 2024).
-- [GOLEM](https://aclanthology.org/2024.lrec-main.689.pdf) - Yarlott et al. (LREC-COLING 2024); the corpus, listed under corpora above.
-- [A Very Brief History of Computational Folkloristics](https://doi.org/10.1515/fabula-2023-0001) - Lauer (Fabula, 2023).
+- [Polyphemus: a Palaeolithic tale?](https://shs.hal.science/halshs-00932197/document) - d'Huy (2013); with [*The Cosmic Hunt*](https://shs.hal.science/halshs-02280068/document) (Nouvelle Mythologie Comparée 4, 2018), core works in his phylogenetic-mythology programme.
+- [A Large-Scale Study of World Myths](https://doi.org/10.3176/tr.2018.4.05) - Thuillard, Le Quellec, d’Huy & Berezkin (*Trames*, 2018, 22(4), 407–424); network and clustering analysis of motif geography.
+- [Worldwide patterns in mythology echo the human expansion out of Africa](https://www.biorxiv.org/content/10.1101/2025.01.24.634692v1.full) - Motif distances compared with geographic and genetic distances on the Berezkin catalogue (bioRxiv, 2025).
+
+### Networks & quantitative approaches
+
+- [Universal Properties of Mythological Networks](https://doi.org/10.1209/0295-5075/99/28002) - Mac Carron & Kenna (EPL, 2012).
+
+### Data, corpora & infrastructure
+
+- [GOLEM](https://aclanthology.org/2024.lrec-main.689.pdf) - Yarlott et al. (LREC-COLING 2024); the corpus is listed above.
+- [Kestemont et al. "Forgotten Books"](https://doi.org/10.1126/science.abl7655) - Survival estimation of medieval narrative (Science, 2022).
 - [MOMFER: A Search Engine of Thompson's Motif-Index](https://doi.org/10.1080/0015587X.2015.1006954) - Karsdorp, van der Meulen, Meder & van den Bosch (Folklore, 2015); semantic rather than string search over the TMI.
-- [Teaching Tale Types to a Computer](https://doi.org/10.1515/fabula-2023-0005) - Eklund, Hagedorn & Darányi (Fabula, 2023); SVM over TF-IDF on the ten best-populated ATU classes.
-- [Testing and Adapting the Representational Abilities of Large Language Models on Folktales in Low-Resource Languages](https://aclanthology.org/2024.nlp4dh-1.31/) - Meaney, Alex & Lamb (NLP4DH, 2024); the field's clearest head-to-head: a non-contextual SVM baseline stays competitive with adapted transformers.
-- [Large language models for folktale type automation based on motifs: Cinderella case study](https://arxiv.org/abs/2510.18561) - Arčon, Robnik-Šikonja & Tratnik (preprint, 2025); zero-shot motif-presence checks, and an argument that the motif typology itself is too rigid.
-- [Automated Motif Indexing on the Arabian Nights](https://arxiv.org/pdf/2603.19283) - Alyami & Finlayson (preprint, 2026); a fine-tuned Llama-3 at 0.85 F1 against a known index entry; the corpus is listed above.
-- [Worldwide patterns in mythology echo the human expansion out of Africa](https://www.biorxiv.org/content/10.1101/2025.01.24.634692v1.full) - Motif distances against geographic and genetic distance on the Berezkin catalogue (bioRxiv, 2025).
+
 ## Scholars & labs
 
 Researchers and groups working on computational folkloristics, narrative analysis, cultural evolution, and the digital study of myth. The list is selective rather than exhaustive; entries are grouped by their main research connection to this field.
