@@ -80,7 +80,6 @@ Structured information needed to interpret distributions, model contact, and con
 - [D-PLACE](https://d-place.org) - Language, culture, environment, and geographic information for human societies; includes the Ethnographic Atlas.
 - [Glottolog](https://glottolog.org) - Language classification, genealogical relationships, and bibliographic metadata.
 - [Historical Basemaps](https://github.com/aourednik/historical-basemaps) - Dated political boundaries in GeoJSON for historical-geographic analysis.
-- [MANTO](https://www.manto-myth.org) - Linked data on Greek mythological entities and relations.
 
 ## Digital text libraries
 
@@ -124,6 +123,7 @@ Structured information needed to interpret distributions, model contact, and con
 
 - [DFKI Linked Data for Folktales](https://www-live.dfki.de/fileadmin/user_upload/import/6181_LDL-2012-declerck.pdf) - OWL/RDF/SKOS + lemon modelling of ATU/TMI (Declerck et al.).
 - [Ontology of Greek Mythology (OGM)](https://www.semantic-web-journal.net/content/greek-mythology-knowledge-graph-chaos-zeus-and-beyond) - Wikidata-based ontology of Greek mythological characters (Pastor-Sánchez et al.).
+- [MANTO](https://www.manto-myth.org) - Linked data on Greek mythological entities and relations.
 - [GLOS — Geographic Lens on Stories](https://kgeographer.org/glos/) - Geographic modelling of stories (Grossner et al.).
 - [SKOS](https://www.w3.org/2004/02/skos/) - Vocabulary standard.
 - [lemon](https://www.w3.org/2016/05/ontolex/) - Lexicon model (OntoLex-Lemon).
