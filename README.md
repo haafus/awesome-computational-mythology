@@ -39,7 +39,7 @@
 - [FairytaleQA](https://github.com/neuhai/FairytaleQA_Dataset) - Question-answering dataset over fairy tales.
 - [Multilingual Folk Tale Database (MFTD)](http://www.mftd.org) - Folk tales and their translations in many languages; the site is temporarily offline.
 - [Ashliman's Folktexts](https://sites.pitt.edu/~dash/folktexts.html) - D. L. Ashliman's ATU-organized folklore archive.
-- [ProppLearner](https://academic.oup.com/dsh/article/32/2/284/2957394) - Proppian-function-annotated Russian folktales (Finlayson).
+- [ProppLearner](https://academic.oup.com/dsh/article/32/2/284/2957394) - Proppian-function-annotated Russian folktales (Finlayson); see also Finlayson's [2012 dissertation, *Learning Narrative Structure from Annotated Folktales*](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf), which develops the Analogical Story Merging (ASM) approach.
 - [Kestemont et al. "Forgotten Books"](https://doi.org/10.1126/science.abl7655) - Survival estimation of medieval narrative (Science, 2022).
 - [Arabian Nights motif corpus](https://arxiv.org/abs/2603.19283) - 2,670 motif expressions over 200 motifs in 58,450 sentences, indexed against El-Shamy (Alyami & Finlayson, 2026; preprint); the first motif-indexing corpus for a single work.
 - [MIME](https://aclanthology.org/2024.nlpcss-1.4/) - Reports on a motif's *implicit* meaning drawn from indexes, Wikipedia, informants and social media (Acharya et al., NLP+CSS 2024); concludes culture-bearer input is not optional.
@@ -133,6 +133,11 @@
 ## Landmark papers
 
 - [Universal Properties of Mythological Networks](https://doi.org/10.1209/0295-5075/99/28002) - Mac Carron & Kenna (EPL, 2012).
+- [Learning Narrative Structure from Annotated Folktales](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf) - Finlayson (PhD dissertation, MIT, 2012); introduces Analogical Story Merging (ASM) to induce abstract narrative structure from semantically annotated event sequences.
+- [An NLP-based Cross-Document Approach to Narrative Structure Discovery](https://doi.org/10.1093/llc/fqu055) - Reiter, Frank & Hellwig (*Literary and Linguistic Computing*, 2014, 29(4), 583–605); aligns event and participant representations across documents to discover recurring narrative structures.
+- [Learning a Better Motif Index: Toward Automated Motif Extraction](https://doi.org/10.4230/OASIcs.CMN.2016.7) - Yarlott & Finlayson (CMN 2016); proposes a supervised pipeline for extracting known and novel folklore motifs from narrative texts.
+- [A Large-Scale Study of World Myths](https://doi.org/10.3176/tr.2018.4.05) - Thuillard, Le Quellec, d’Huy & Berezkin (*Trames*, 2018, 22(4), 407–424); applies network and clustering methods to the geographic distribution of motifs across the Berezkin catalogue.
+- [Mining Motifs in Fairy Tales](https://aclanthology.org/2026.oracle-main.16/) - Shahsavari, Mayer & Suchanek (ORACLE/ACL, 2026); uses an LLM to generate motif descriptions per tale, then embeddings and clustering to normalize variants and build motif-based comparisons.
 - [Computational Folkloristics](https://doi.org/10.1145/2209249.2209267) - Abello, Broadwell & Tangherlini (CACM, 2012).
 - [Comparative phylogenetic analyses uncover the ancient roots of Indo-European folktales](https://doi.org/10.1098/rsos.150645) - Sara Graça da Silva & Jamshid Tehrani (R. Soc. Open Sci., 2016).
 - [The Phylogeny of Little Red Riding Hood](https://doi.org/10.1371/journal.pone.0078871) - Tehrani (PLoS ONE, 2013).
