@@ -38,6 +38,9 @@
 - [Annotated Folktales / "Trilogy"](https://github.com/j-hagedorn/trilogy) - Open ATU-annotated corpus (Hagedorn & Darányi, 2022) of 1,518 texts over 182 tale types (CC-BY-SA); the [data paper](https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.78) is in *Journal of Open Humanities Data*. An SVM over TF-IDF on its ten best-populated classes reaches F1 0.8–1.0 (Eklund et al. 2023, below).
 - [Dutch Folktale Database (Verhalenbank)](https://www.verhalenbank.nl) - The Meertens Institute folktale collection; also searchable through ISEBEL.
 - [FairytaleQA](https://github.com/neuhai/FairytaleQA_Dataset) - Question-answering dataset over fairy tales.
+- [Folklore Database](https://folkloredatabase.com/) - Aggregated global collection of 286,000+ narrative texts from hundreds of sources, with English translations and metadata including motifs, cultural origins, geography, and bibliographic references. It incorporates existing indexes and corpora; mytheme annotations are being rebuilt with an LLM, and mytheme search is currently unavailable. Check source-level provenance and reuse rights before treating it as a downloadable research corpus.
+- [FILTER Finnic Runosong Database](https://blogs.helsinki.fi/filter-project/tools/) - Integrated database of Estonian, Finnish, Karelian, and Ingrian runosong materials (approx. 250,000 texts across related corpora), with metadata and computational similarity tools; includes ERAB, SKVR, and unpublished Finnish runosongs.
+- [Decoding Hidden Heritages](https://www.hiddenheritages.ai/) - Searchable corpus of 5,500+ Scottish and Irish folktales from archival manuscripts and printed sources, including AI-assisted transcriptions and AT tale-type metadata; project outputs derive from the School of Scottish Studies Archives and the Irish National Folklore Collection.
 - [Multilingual Folk Tale Database (MFTD)](http://www.mftd.org) - Folk tales and their translations in many languages; the site is temporarily offline.
 - [ProppLearner](https://academic.oup.com/dsh/article/32/2/284/2957394) - Proppian-function-annotated Russian folktales (Finlayson); see also Finlayson's [2012 dissertation, *Learning Narrative Structure from Annotated Folktales*](https://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf), which develops the Analogical Story Merging (ASM) approach.
 - [Arabian Nights motif corpus](https://arxiv.org/abs/2603.19283) - 2,670 motif expressions over 200 motifs in 58,450 sentences, indexed against El-Shamy (Alyami & Finlayson, 2026; preprint); the first motif-indexing corpus for a single work.
@@ -49,6 +52,8 @@ Digital repositories and search systems for folklore materials, including archiv
 
 - [ISEBEL — Intelligent Search Engine for Belief Legends](https://search.isebel.eu/) - Cross-archive search over Dutch, Flemish, Danish, North-East German, and Icelandic legend databases; links records to their source collections.
 - [WossiDia — Digital Wossidlo Archive](https://apps.wossidia.de/webapp/run) - Digitized North-East German folklore archive based on the Wossidlo collection.
+- [Folke](https://sok.folke.isof.se/) - Swedish digital archive of historical folklore records from the Institute for Language and Folklore (Isof), including manuscripts, questionnaires, and recordings; transcribed texts are also available as a downloadable corpus under CC BY 4.0.
+- [African Oral Narratives](https://africacommons.net/collections/159439/african-oral-narratives/) - Open digital library of oral and life histories, folklore, and songs from Ethiopia, Ghana, and South Africa, including audio, video, transcripts, and translations.
 - [Sagnagrunnur](https://sagnagrunnur.arnastofnun.is/english/) - Geographically mapped database of published Icelandic legends, with linked extensions for Shetland and Orkney and connections to archival sound recordings.
 - [Danish Folklore Nexus](https://scando.ist.berkeley.edu/folklorenexus/) - Searchable collection of Danish legends developed by the Scandinavian Section at UC Berkeley.
 - [Danish Folklore Archive, Royal Danish Library](https://www.kb.dk/en/find-materials/collections/folklore-archive) - Manuscripts, audio, images, video, and books documenting Danish folklore and everyday life.
@@ -166,6 +171,7 @@ Methods are grouped along the research workflow, from preparing primary sources 
 
 - [MOMFER](https://momfer.meertens.knaw.nl/) - Motif finder over the Dutch Folktale Database.
 - [Sentence-Transformers](https://www.sbert.net) - Embedding infrastructure for semantic search and similarity.
+- [Runoregi](https://runoregi.fi/) - Interface for exploring computational similarity results across Finnic oral poetry, developed within the FILTER project.
 - [BERTopic](https://maartengr.github.io/BERTopic/) - Topic modeling.
 - [MALLET](http://mallet.cs.umass.edu/) - Topic modeling toolkit; widely used for LDA.
 - [`uhhlt/story-emb`](https://huggingface.co/uhhlt/story-emb) - Story-similarity embedding model (Hatzel & Biemann).
