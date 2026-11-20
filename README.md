@@ -50,7 +50,7 @@ Digital repositories and search systems for folklore materials, including archiv
 
 - [ISEBEL — Intelligent Search Engine for Belief Legends](https://search.isebel.eu/) - Cross-archive search over Dutch, Flemish, Danish, North-East German, and Icelandic legend databases; links records to their source collections.
 - [WossiDia — Digital Wossidlo Archive](https://apps.wossidia.de/webapp/run) - Digitized North-East German folklore archive based on the Wossidlo collection.
-- [Sagnagrunnur](https://sagnagrunnur.arnastofnun.is/en/) - Database of published legends and wonder tales from Iceland, the Faroe Islands, Orkney, and Shetland, with sound recordings.
+- [Sagnagrunnur](https://sagnagrunnur.arnastofnun.is/english/) - Geographically mapped database of published Icelandic legends, with linked extensions for Shetland and Orkney and connections to archival sound recordings.
 - [Danish Folklore Nexus](https://scando.ist.berkeley.edu/folklorenexus/) - Searchable collection of Danish legends developed by the Scandinavian Section at UC Berkeley.
 - [Danish Folklore Archive, Royal Danish Library](https://www.kb.dk/en/find-materials/collections/folklore-archive) - Manuscripts, audio, images, video, and books documenting Danish folklore and everyday life.
 - [Estonian Folklore Archives — digital databases](https://www.folklore.ee/en/dbases/) - Genre- and region-based databases of digitized Estonian folklore texts.
@@ -61,18 +61,17 @@ Digital repositories and search systems for folklore materials, including archiv
 - [Tobar an Dualchais / Kist o Riches](https://www.tobarandualchais.co.uk/) - Sound recordings of Scottish traditions, including legends and songs.
 - [Dúchas — National Folklore Collection](https://www.duchas.ie/en) - Digitized Irish folklore manuscripts, photographs, and audio, including the Schools’ Collection; public transcriptions and a folktale index.
 - [Belgian Folktale Database](https://www.volksverhalenbank.be/) - Folktale collection associated with the University of Leuven.
-- [Croatian Institute of Ethnology and Folklore Research — Documentation](https://www.ief.hr/) - Ethnological and folklore documentation collections in Zagreb.
-- [Finnish Literature Society Archives](https://finlit.finna.fi/) - Catalogued folklore, oral-history, manuscript, photographic, and sound collections.
+- [Croatian Institute of Ethnology and Folklore Research — Archive Collections](https://www.ief.hr/en/archive/collections/) - Folklore and ethnographic documents, manuscript collections, and sound recordings on Croatian traditional culture.
+- [Finnish Literature Society Archives](https://www.finlit.fi/en/archives/archive-materials-on-traditional-and-contemporary-culture/) - Folklore and oral-history collections from Finland, Karelia, and Ingria, including manuscripts, photographs, recordings, and videos.
 - [Ashliman's Folktexts](https://sites.pitt.edu/~dash/folktexts.html) - D. L. Ashliman's ATU-organized collection of folklore texts.
 
 ## Cross-cultural & areal databases
 
-Structured comparative databases and reference systems that bring together cultural, religious, mythological, or historical information across societies.
+Structured comparative databases and reference systems that bring together cultural, religious, or historical information across societies.
 
 - [Seshat: Global History Databank](https://seshatdatabank.info) - Structured data on past societies, institutions, and social complexity.
 - [Database of Religious History (DRH)](https://religiondatabase.org) - Expert-coded data on religious groups, practices, and places.
 - [eHRAF World Cultures](https://ehrafworldcultures.yale.edu/) - Cross-cultural ethnographic materials with subject indexing (subscription).
-- [MANTO](https://www.manto-myth.org) - Linked data on Greek mythological entities and relations.
 
 ## Contextual data
 
@@ -81,9 +80,7 @@ Structured information needed to interpret distributions, model contact, and con
 - [D-PLACE](https://d-place.org) - Language, culture, environment, and geographic information for human societies; includes the Ethnographic Atlas.
 - [Glottolog](https://glottolog.org) - Language classification, genealogical relationships, and bibliographic metadata.
 - [Historical Basemaps](https://github.com/aourednik/historical-basemaps) - Dated political boundaries in GeoJSON for historical-geographic analysis.
-- [Seshat: Global History Databank](https://seshatdatabank.info) - Structured data on past societies and their institutions.
-- [Database of Religious History](https://religiondatabase.org) - Expert-coded data on religious groups, practices, and places.
-- [eHRAF World Cultures](https://ehrafworldcultures.yale.edu/) - Cross-cultural ethnographic materials with subject indexing (subscription).
+- [MANTO](https://www.manto-myth.org) - Linked data on Greek mythological entities and relations.
 
 ## Digital text libraries
 
@@ -114,8 +111,6 @@ Structured information needed to interpret distributions, model contact, and con
 - [HathiTrust](https://www.hathitrust.org) - Digitized research-library collections.
 
 ## Encyclopedias & reference works
-
-- [Theoi Greek Mythology](https://www.theoi.com) - Greek mythology reference with primary-source quotations.
 
 - [The Mythology of All Races](https://en.wikipedia.org/wiki/The_Mythology_of_All_Races) - Gray/Moore, eds., 13 vols.
 - [Encyclopedia of Religion](https://archive.org/search?query=title%3A%28encyclopedia+of+religion%29+AND+creator%3A%28eliade%29) - Eliade, ed. (1987); 2nd ed. Jones (2005).
